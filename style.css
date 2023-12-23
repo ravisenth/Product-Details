@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: Inter;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+  .container{
+  display:flex;
+  width:90%;
+  margin:0px;
+}
+
+/* Image container */
+
+.productimage{
+ width:40%;
+}
+#main_image{
+  max-width:90%;
+  max-height: 100%;
+ }
+#main_imagedis{
+  padding: 0.5rem;
+  border-radius: 20px;
+ width:85%;
+ height:80%;
+}
+
+ /* thambnails */
+
+.thambnails{
+ display:flex;
+}
+#thambnail_image1{
+ width:80px;
+ height:80px; 
+ padding:5px;
+ border-radius:10px;
+}
+#thambnail_image1:hover{
+  border:2px solid blue;
+}
+#thambnail_image2{
+  width:80px;
+  height:80px; 
+  padding:5px;
+  border-radius:10px;
+ }
+ #thambnail_image2:hover{
+  border:2px solid blue;
+}
+ #thambnail_image3{
+  width:80px;
+  height:80px;
+  padding:5px; 
+  border-radius:10px;
+ }
+ #thambnail_image3:hover{
+  border:2px solid blue;
+}
+ #thambnail_image4{
+  width:80px;
+  height:80px;
+  padding:5px; 
+  border-radius:10px;
+ }
+ #thambnail_image4:hover{
+  border:2px solid blue;
+}
+
+ /* Product details */
+
+.product_detail{
+  width:40%;
+}
+#price{
+  color:#00008B;
+  font-weight: 700;
+  font-size: 30px;
+}
+#offer{
+  color:red;
+}
+.options{
+  display:flex;
+  justify-content:space-around;
+  font-size: 13px;
+  font-weight: 700;
+  
+}
+#vendor{
+ color:darkgray;
+}
+p{
+  color:darkgray;
+  font-size: 13px;
+}
+
+ /* Color Option */
+#box1{
+  width:25px;
+  height:25px;
+}
+#box1:hover{
+  margin: 3px;
+  border:3px solid white;
+}
+#box2{
+  width:25px;
+  height:25px;
+}
+#box2:hover{
+  margin: 3px;
+  border:3px solid white;
+}
+#box3{
+  width:25px;
+  height:25px;
+}
+#box3:hover{
+  margin: 3px;
+  border:3px solid white;
+}
+#box4{
+  width:25px;
+  height:25px;
+}
+#box4:hover{
+  margin: 3px;
+  border:3px solid white;
+}
+label{
+  border-radius: 10px;
+  background-color: lightgray;
+  padding: 5px;
+}
+
+ /* Add to Cart */
+ 
+.addtocart{
+  display: flex;
+  margin-top: 2rem;
+  font-size: 16px;
+}
+#minus{
+  padding: 1rem;
+  cursor: pointer;
+}
+#count{
+  padding: 1rem;
+}
+#plus{
+  padding: 1rem;
+  cursor: pointer;
+}
+
+#cartbutton{
+  width:50%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  background-color: blue;
+  color:white;
+  cursor: pointer;
+}

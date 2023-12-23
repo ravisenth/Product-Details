@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- Product Section-->
+    <title>Product Details</title>
+
+</head>
+
+<body>
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- Image Section -->
+
+	    <div class="productimage">
+            <div id="main_image">
+                <img id="main_imagedis" alt="Image">
+            </div>
+
+            <!-- Thambnails -->
+
+            <div class="thambnails">
+                <img id="thambnail_image1" alt="Image">
+                <img id="thambnail_image2" alt="Image">
+                <img id="thambnail_image3" alt="Image">
+                <img id="thambnail_image4" alt="Image">
+            </div>
+
+	    </div>
+
+        <!-- Product Details -->
+        
+        <div class="product_detail">
+            <h5 id="vendor"></h5>
+            <h4 id="title"></h4>
+            <h3 id="price"></h3><span id="offer"></span>
+            <s><p id="mrp"></p></s>
+
+            <!-- Color Option -->
+
+            <p>Choose a color</p>
+            <div class="options">
+            <div id="box1"></div>
+            <div id="box2"></div>
+            <div id="box3"></div>
+            <div id="box4"></div>
+        </div>
+
+        <!-- Size Option -->
+
+        <p>Chooose a size</p>
+        <div class="options">
+           <input type="radio" name="size" id="sizes1" value="1"><label id="size1"></label>
+           <input type="radio" name="size" id="sizes2" value="2"><label id="size2"></label>
+           <input type="radio" name="size" id="sizes3" value="3"><label id="size3"></label>
+           <input type="radio" name="size" id="sizes4" value="4"><label id="size4"></label>
+           <input type="radio" name="size" id="sizes5" value="5"><label id="size5"></label>
+        </div>
+
+        <!-- Add to Cart -->
+
+        <div class="addtocart">
+            <div id="minus">-</div>
+            <div id="count"></div>
+            <div id="plus">+</div>
+            <button id="cartbutton">Add To Cart</button>
+        </div>
+        <div>
+
+            <!-- Description -->
+            
+            <p id="description"></p>
+        </div>
+        </div>
+        
+	
+    </div>
+
+
+    <!-- Script file -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
